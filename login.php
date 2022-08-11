@@ -11,9 +11,10 @@
     <main>
         <form action="index.php" method="post">
             <input type="hidden" name="recap-token" id="g-recap">
-            <h1>Recaptcha</h1>
-            <input type="text" name="nom" id="">
-            <input type="text" name="prenom" id="">
+            <h1>Recaptcha<span class="emphasize">.</span></h1>
+            <br><br>
+            <input type="text" name="first-name" id="" placeholder="Nom">
+            <input type="text" name="last-name" id="" placeholder="Prenom">
             <button class="login">Se connecter
             </button>
         </form>
