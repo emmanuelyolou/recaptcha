@@ -9,11 +9,12 @@
 </head>
 <body>
     <main>
-        <form action="#">
+        <form action="index.php" method="post">
+            <input type="hidden" name="recap-token" id="g-recap">
             <h1>Recaptcha</h1>
             <input type="text" name="nom" id="">
             <input type="text" name="prenom" id="">
-            <button class="submit">Envoyer
+            <button class="login">Se connecter
             </button>
         </form>
     </main>
